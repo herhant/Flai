@@ -2,6 +2,8 @@
 
 /* COLORES */
 
+/* #F0E5DC #CFA4C2 #C6CDC1 #FFF6E9 #FFFAF9 */
+
 /* HEADER */
 
 * {
@@ -20,12 +22,12 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 9px;
     position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #FCF2D4; 
+    background-color: #FFFAF9; 
     transition: background-color 0.3s ease, opacity 0.3s ease;
     z-index: 100;
 }
@@ -33,6 +35,15 @@ header {
 header:hover {
     opacity: 1;
 }
+
+.logo {
+    background-image: url('./assets/logo.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 61px;
+    height: 61px;
+}
+
 header ul {
     display: flex;
     flex-flow: row nowrap;
@@ -82,10 +93,14 @@ main {
     background-image: url('https://via.placeholder.com/800x600/FF5733/FFFFFF?text=Sección+1');
 }
 
-.nosotras {
+.portfolio {
+    background-image: url(./assets/seccion1.jpg);
+}
+
+.productos {
     background-image: url('https://via.placeholder.com/800x600/33FF57/FFFFFF?text=Sección+2');
 }
 
 .contacto {
-    background-image: url('https://via.placeholder.com/800x600/3357FF/FFFFFF?text=Sección+3');
+    background-image: url(./assets/seccion2.jpg);
 }
